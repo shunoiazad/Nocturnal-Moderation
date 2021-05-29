@@ -102,7 +102,7 @@ async def disable(ctx, extension):
             if extension == "all":
                 for f in os.listdir('./myCogs'):
                     if f.endswith('.py'):
-                        exempted_files = ["Snipe_Command.py"]
+                        exempted_files = []
                         if f in exempted_files:
                             pass
                         else:
@@ -141,11 +141,6 @@ async def commands(ctx):
     mod_embed.add_field(
         name = 'Tickets',
         value = "`n!close` - closes a ticket, minor purpose channels",
-        inline = False
-    )
-    mod_embed.add_field(
-        name = 'Miscellaneous',
-        value = "`n!rule <rule number>` - displays the rule of its specified rule number",
         inline = False
     )
     mod_embed.add_field(
