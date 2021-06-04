@@ -1,0 +1,27 @@
+{
+    "bot_prefix": "n!",
+    "embed_color": "0x4d7eff",
+    "ids": {
+        "owner_id": 386860764368994304,
+        "bot_id": 808503603886686229,
+        "guild_id": 850018668586991657
+    },
+    "exempted_cogs": [],
+    "defaults": {
+        "purge_amount": 5,
+        "purge_channel": null,
+        "mute_limit": null,
+        "kick_reason": "Unspecified",
+        "softban_reason": "Unspecified",
+        "ban_reason": null
+    },
+    "warn_database": "databases/warnings.json",
+    "mod_roles": [
+        850021890596798474,
+        850022698121691166
+    ],
+    "muted_role": 850031438988312616,
+    "ban_emoji": 850258705345413171,
+    "checkmark_emoji": 800012200923365416,
+    "crossmark_emoji": 800012247623663636
+}
